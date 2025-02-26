@@ -1,0 +1,79 @@
+.my-hidden{
+    /* visibility: hidden; */
+    display: none;
+}
+
+.b-title{
+    margin-top: 2%;
+    margin-left: 1vw;
+    margin-bottom: 1vh;
+}
+
+#btn-bar {
+    margin-left: 2%;
+    margin-top: 1%;
+    position: relative;
+    display: flex;
+}
+
+#setting-btn {
+    text-align: center;
+    height: auto;
+    width: 30px;
+    margin-right: 1%;
+    border-radius: 20% 20% 20% 20%;
+    outline: 1px solid #3b3b3b;
+}
+
+#reset {
+    text-align: center;
+    height: auto;
+    width: 50px;
+    margin-right: 1%;
+    border-radius: 20% 20% 20% 20%;
+    outline: 1px solid #3b3b3b;
+}
+
+#setting-btn:hover {
+    background-color: #3b3b3b;
+    color: lightgray;
+}
+
+#reset:hover {
+    background-color: #3b3b3b;
+    color: lightgray;
+}
+
+#set-num {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#game-board {
+    margin-left: 2%;
+    margin-top: 2%;
+}
+
+#set-num > select {
+    margin-right: 5px;
+}
+
+#ground {
+    margin-bottom: 20px;
+}
+#ground > select {
+    margin-right: 5px;
+}
+
+#play-ball {
+    margin-bottom: 5px;
+}
+
+#result {
+    margin-bottom: 5px;
+    margin-right: 20px ;
+}
+
+#log {
+    display: flex;
+}

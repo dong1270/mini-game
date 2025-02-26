@@ -1,0 +1,43 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+* {
+    margin: 0px;
+}
+
+#page-title {
+    margin-top: 20px;
+    margin-left: 3%;
+}
+
+.line {
+    width: 95%;
+    height: 10px;
+    border-bottom: solid 1px #6b6b6b;
+    margin-left: 2%;
+    margin-bottom: 1%;
+}
+
+.game-list {
+    margin-left: 2%;
+}
+
+.game-viewer {
+    width: 100px;
+    margin-bottom: 1%;
+}
+
+.game-viewer:hover {
+    background-color: #6b6b6b;
+    color: lightgray
+}
+
+
+@media (max-width: 650px) {
+    #text-box {
+        margin-left: 10px;
+        margin-top: 400px;
+    }
+}

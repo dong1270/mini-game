@@ -1,0 +1,67 @@
+#table {
+    position: absolute;
+    background-color: blanchedalmond;
+    width: 360px;
+    height: 360px;
+    border-collapse: collapse;
+    border-spacing: 0;
+}
+
+#go {
+    position: absolute;
+    margin: 10px;
+    width: 340px;
+    height: 340px;
+    border-collapse: collapse;
+}
+
+.square {
+    border: thin solid lightgray;
+    padding: 0;
+}
+
+.black {
+    margin: 0px;
+    padding: 0px;
+    background-color: black;
+    border-radius: 50%;
+    outline: solid 0.5px lightgray;
+}
+.white {
+    padding: 0px;
+    margin: 0px;
+    background-color: snow;
+    border-radius: 50%;
+    outline: solid 0.5px gray;
+}
+
+#reset-btn {
+    width: 40px;
+    height: auto;
+    margin: 0px;
+    padding: 0px;
+    border-radius: 20%;
+    outline: solid 1px black;
+    text-align: center;
+}
+
+#reset-btn:hover {
+    color: lightgrey;
+    background-color: #3b3b3b;
+}
+
+#setting-box {
+    height: 35px;
+}
+
+#text-box {
+    margin-left: 60%;
+}
+
+
+@media (max-width: 650px) {
+    #text-box {
+        margin-left: 10px;
+        margin-top: 400px;
+    }
+}
