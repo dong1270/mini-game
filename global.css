@@ -9,7 +9,19 @@ body {
 
 #page-title {
     margin-top: 20px;
-    margin-left: 3%;
+    /* margin-left: 3%; */
+    width: 100%;
+    text-align: center;
+}
+
+.game-title {
+    height: 7vh;
+    font-size: 25px;
+    display: flex;
+    justify-self: center;
+    align-items: center;
+    margin-top: 2px;
+    margin-bottom: 10px;
 }
 
 .line {
@@ -24,14 +36,96 @@ body {
     margin-left: 2%;
 }
 
-.game-viewer {
-    width: 100px;
-    margin-bottom: 1%;
+.game-img {
+    width: 90%;
+    height: 70%;
+    /* background-color: #6b6b6b; */
+    margin-top: 10px;
+    display: flex;
+    justify-self: center;
+    outline: solid 1px #000;
+    border-radius: 10%;
+    object-fit: contain;
 }
 
-.game-viewer:hover {
-    background-color: #6b6b6b;
-    color: lightgray
+.game-viewer {
+    margin-left: 5%;
+    margin-right: 5%;
+    height: 15vw;
+    width: 18vw;
+    border: solid 1px black;
+    border-radius: 10%;
+    box-shadow: 0 0 10px gray;
+}
+
+.on-game:hover {
+    background-color: hsl(0, 0%, 42%);
+    color: lightgray;
+    transform: scale(1.2, 1.2);
+    transition: all 1s;
+}
+
+.off-game {
+    color: #aaa;
+    background-color: #ddd;
+}
+
+.off-game > img {
+    filter: opacity(0.2) drop-shadow(0 0 0 #ddd);
+}
+
+.col{
+    display: flex;
+    width: 100%;
+    /* margin-bottom: 10vh; */
+    margin-bottom: 2%;
+    margin-top: 50px;
+    justify-content: start;
+}
+
+.row {
+    width: 34%;
+    display: flex;
+    justify-content: center;
+}
+
+
+
+@media (max-width: 960px) {
+    #text-box {
+        margin-left: 10px;
+        margin-top: 400px;
+    }
+
+    .game-viewer {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 30vw;
+        width: 30vw;
+        border: solid 1px black;
+        border-radius: 10%;
+    }
+
+    .game-title {
+        height: 2rem;
+        margin-top: 10px;
+        margin-bottom: 15%;
+    }
+
+
+    .col{
+        display: flex;
+        width: 100%;
+        /* margin-bottom: 5vh; */
+        /* margin-bottom: 2%; */
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .game-img {
+        width: 90%;
+        height: 60%;
+    }
 }
 
 
@@ -39,5 +133,39 @@ body {
     #text-box {
         margin-left: 10px;
         margin-top: 400px;
+    }
+
+    .game-viewer {
+        margin-left: 5%;
+        margin-right: 5%;
+        height: 30vw;
+        width: 30vw;
+        border: solid 1px black;
+        border-radius: 10%;
+    }
+
+    .game-title {
+        height: 2rem;
+        font-size : 15px;
+        margin-top: 2%;
+        margin-bottom: 5%;
+    }
+
+    .game-viewer {
+        font-size: 16px;
+    }
+
+    .col{
+        display: flex;
+        width: 100%;
+        margin-bottom: 5vh;
+        /* margin-bottom: 2%; */
+        margin-top: 50px;
+        justify-content: center;
+    }
+
+    .game-img {
+        width: 90%;
+        height: 60%;
     }
 }

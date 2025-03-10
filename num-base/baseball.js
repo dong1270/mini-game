@@ -1,6 +1,6 @@
 window.onload = () => {
     let setNum = document.getElementById('set-num');
-    let setBtn = document.getElementById("setting-btn")
+    let setBtn = document.getElementById("setting-btn");
     let reSetBtn = document.getElementById("reset");
     let getNum = document.getElementById("get-num");
     let getBoard = document.getElementById("game-board");
@@ -18,8 +18,6 @@ window.onload = () => {
     let res = {
         ball: 0, strike: 0, out: 0
     }
-
-    let strike = 0;
 
     for(let i = 0; i < 4; i++)
     {
